@@ -2,7 +2,7 @@
     "compilerOptions": {
         "outDir": "dist",
         "allowJs": true,
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "strictNullChecks": true,
         "resolveJsonModule": true,
         "noImplicitReturns": true,
@@ -12,7 +12,7 @@
         "baseUrl": "src",
         "paths": {
             "@code/*": [
-                "day4/*"
+                "day1/*"
             ]
         }
     },

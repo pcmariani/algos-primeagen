@@ -1,4 +1,7 @@
 import two_crystal_balls from "@code/TwoCrystalBalls";
+var CliFrames = require("cli-frames")
+// import CliFrames from "cli-frames"
+// import cf from "cli-frames"
 
 test("two crystal balls", function () {
     let idx = Math.floor(Math.random() * 10000);
@@ -11,4 +14,5 @@ test("two crystal balls", function () {
     expect(two_crystal_balls(data)).toEqual(idx);
     expect(two_crystal_balls(new Array(821).fill(false))).toEqual(-1);
 });
+
 
